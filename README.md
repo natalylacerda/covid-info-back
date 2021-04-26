@@ -1,24 +1,15 @@
-# README
+# COVID INFO DOCS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Como utilizar
+- Execute os comandos em sequência :
+  `bundle install`
+  `rails db:create`
+  `rails db:migrate`
+  `rails db:seed`
+  `rails s -b 0.0.0.0`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Para repopular o banco de dados, execute :
+  `rails db:purge`
+  `rails db:migrate`
+  `rails db:seed`
+  `rails s -b 0.0.0.0`
